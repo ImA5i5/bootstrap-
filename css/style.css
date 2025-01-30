@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+section{
+    padding: 50px 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/*======banner====*/
+.banner{
+    height: 100vh;
+    background: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*========card=========*/
+.carded{
+    box-shadow: 0px 0px 15px 0px rgb(87, 86, 86);
+}
+.carded:hover{
+    background-color: rgb(142, 142, 232);
+    transition: 0.3s;
+    
+}
+.card-1-1 i:hover{
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+/*=====about==========*/
+.abt-card {
+ width:50%;
+ 
+}
+.abt-card figure img{
+    width: 100%;
+    border: none;
+}
+.about-icon i{
+    font-size: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+/*=============card-2=========*/
+.card-2{
+    position: relative;
+}
+.card-2-body i{
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 100%;
+    bottom: 88px;
+    left: 117px;
+    
+}
+.card-2-h{
+    margin-top: 30px;
+}
+/*========slider==========*/
+
+  .carousel-2 {
+    width: 100%;
+    background: #f8fbff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-2 img {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*=========service=======*/
+.card-3:hover{
+    background-color: burlywood;
+    box-shadow: 0px 0px 15px 0px rgb(87, 86, 86);
+    transition: 0.3s;
+}
+.card-3-body{
+    padding: 50px 0px;
+}
+.card-3-body i{
+    padding: 10px;
+    font-size: 30px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.card-3-body i:hover{
+    color: blue;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+/*==============testomonials======*/
+.testimonials {
+    /* background: #f8f9fa; */
+    background: url(../img/testimonials-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .carousel-item img {
+    border: 3px solid #ddd;
+    padding: 5px;
+  }
+  
+  .star i {
+    font-size: 18px;
+  }
+  /*==========portfolio========*/
+.row-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust min size */
+    gap: 20px; 
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+ 
+/*=========team========*/
+.team-card-body{
+    box-shadow: 0px 0px 15px 0px rgb(87, 86, 86);
+    padding: 1px;
+}
+.team-card-body:hover{
+    background-color: rgb(241, 215, 197);
+    transition: 0.3s;
+}
+/*=========pricing==========*/
+.pricing .row  .pricing-card-body h5{
+    position: relative;
+}
+.pricing .row  .pricing-card-body h5 span{
+    position: absolute;
+    top: 7px;
+}
+/*======  <!-- <div class="d-flex justify-content-center">
+                  <h5 class="pricing-card-title p-1 ">
+                    <sup>$</sup> 0 <span>/month</span>
+                  </h5>
+                </div> -->
+/*==============faqs========*/
+  
